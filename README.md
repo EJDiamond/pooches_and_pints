@@ -5,7 +5,7 @@
 
 #### First Time Visitor Goals
 
-- a) As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+- a) As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the Manchester group meets.
 - b) As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 - c) As a First Time Visitor, I want to locate their social media links to see their followings and connect with local people.
 
@@ -19,7 +19,7 @@
 
 - a) As a Frequent User, I want to check to see if there are any newly added locations or meet ups times.
 - b) As a Frequent User, I want to check to see if the existing weekly events have had any changes made.
-- c) As a Frequent User, I want to sign up to the Newsletter so that I am emailed with any newly scheduled events and meet ups.
+- c) As a Frequent User, I want to sign up to the Newsletter so that I am emailed with any newly scheduled events.
 
 ### Design
 
@@ -30,7 +30,7 @@
 - The Abril Fatface font is used for the headings, whilst the main body font used is Poppins light, both being used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. The fonts pair well together and are clean and easy to read making them both attractive and appropriate.
 
 #### Imagery
-- Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+- The hero image placed, represents simply what the website is for, meeting up and socialising with other dog owners.
 
 ### Wireframes
 
