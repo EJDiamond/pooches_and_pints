@@ -34,8 +34,7 @@
 
 ### Wireframes
 
-* Home Page Wireframe - View
-
+* ! [Intial Wireframe] (/workspace/pooches_and_pints/assets/images/initial_wireframe.png)
 * Mobile Wireframe - View
 
 * Contact Us Page Wireframe - View
