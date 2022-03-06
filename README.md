@@ -36,7 +36,7 @@
 
 * [Initial Wireframe](https://github.com/EJDiamond/pooches_and_pints/blob/main/assets/images/initial_wireframe.png)
 
-* Mobile Wireframe - View
+* [Initial Mobile Wireframe](https://github.com/EJDiamond/pooches_and_pints/blob/main/assets/images/initial_mobile_wireframe.png)
 
-* Contact Us Page Wireframe - View
+* 
 
