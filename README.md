@@ -34,9 +34,9 @@
 
 ### Wireframes
 
-* [Initial Wireframe](https://github.com/EJDiamond/pooches_and_pints/blob/main/assets/images/initial_wireframe.png)
+* [Desktop Wireframe](https://github.com/EJDiamond/pooches_and_pints/blob/main/assets/images/initial_wireframe.png)
 
 * [Initial Mobile Wireframe](https://github.com/EJDiamond/pooches_and_pints/blob/main/assets/images/initial_mobile_wireframe.png)
 
-* 
+* [Revised Mobile Wireframe](https://github.com/EJDiamond/pooches_and_pints/blob/main/assets/images/revised_mobile_wireframe.png)
 
