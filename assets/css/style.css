@@ -25,7 +25,7 @@ h1, h2 {
 }
 
 #title {
-    font-size: 280%;
+    font-size: 320%;
     text-align:center;
 }
 
@@ -59,4 +59,11 @@ nav a {
 .active {
     border-bottom: #d0cbc2 solid 1px;
 
+}
+
+#logo {
+    position:fixed; top:0; left:0;
+    width: 75px;
+    height: 75px;
+    padding: 22px;
 }
