@@ -15,6 +15,8 @@ body {
     background-color: #626556;
 }
 
+/* headings and title */
+
 h1, h2 {
     font-family: Abril Fatface, cursive;
     color: #d0cbc2;
@@ -22,6 +24,29 @@ h1, h2 {
     text-transform: capitalize;
 }
 
-h1 {
-    font-size: 70px;
+#title {
+    font-size: 280%;
+    text-align:center;
 }
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px;
+}
+
