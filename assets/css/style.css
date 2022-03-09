@@ -95,3 +95,14 @@ nav a {
     right: 0;
     position: absolute;
 }
+
+/* what its all about 8*/
+
+#about-title {
+    font-size: 320%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#all-about h2 {
+    font-family: Poppins, sans-serif;
+}
