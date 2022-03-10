@@ -96,7 +96,15 @@ nav a {
     position: absolute;
 }
 
-/* what its all about 8*/
+/* what its all about */
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 200px;
+    align-items: center;
+  }
 
 #about-title {
     font-size: 320%;
