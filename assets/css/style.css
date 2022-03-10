@@ -123,3 +123,27 @@ nav a {
     text-align: center;
 }
 
+/* Description of meet ups and image */
+
+.box {
+    display: flex;
+    align-items: center;
+}
+
+#box {
+    background-color: #d0cbc2;
+    padding: 40px;
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+#image-man-dog {
+    height: 580px;
+}
+
+#description {
+    color: #626556; 
+    text-align: justify;
+    padding-left: 40px;
+}
