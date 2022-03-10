@@ -114,3 +114,12 @@ nav a {
 #all-about h2 {
     font-family: Poppins, sans-serif;
 }
+
+#all-about p {
+    font-size: 110%;
+}
+
+.center-all-about p, h2 {
+    text-align: center;
+}
+
