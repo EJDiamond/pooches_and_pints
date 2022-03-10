@@ -147,3 +147,38 @@ nav a {
     text-align: justify;
     padding-left: 40px;
 }
+
+/* events */
+
+.events-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 200px;
+    align-items: center;
+}
+
+#events-title {
+    font-size: 320%;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#events-description {
+    color: #d0cbc2;
+    text-align: center;
+    padding: 40px;
+    width: 400px
+    margin: 0 auto;
+    
+}
+
+.center-events {
+    border: #d0cbc2 solid 2px;
+    color: #d0cbc2;
+}
+
+.center-events h2, p {
+    text-align: center;
+}
