@@ -150,19 +150,19 @@ nav a {
 
 /* events */
 
-.events-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 200px;
-    align-items: center;
+#events {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 }
+
 
 #events-title {
     font-size: 320%;
     letter-spacing: 2px;
     text-align: center;
-    margin-top: 40px;
+    margin: 40px;
 }
 
 #events-description {
@@ -173,20 +173,25 @@ nav a {
     margin: 0 auto;
 }
 
+.events-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 150px;
+}
+
 .events-container > div {
     width: 200px;
-    height: 350px;
-    margin: 30px 10px;
+    height: 300px;
     line-height: 60px;
     text-align: center;
-    margin-top: 300px;
 }
+
 .center-events {
     border: #d0cbc2 double 5px;
     color: #d0cbc2;
     padding: 30px;
     margin: 30px
-    
 }
 
 .center-events h2, p {
@@ -203,3 +208,32 @@ nav a {
     font-size: 110%;
     margin-top: 20px;
 }
+
+footer {
+    display: flex;
+    background-color: #d0cbc2;
+    height: 150px;
+    width: 100%;
+    padding-top: 15px;
+    align-items: center;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+    justify-content:center;
+}
+
+.social-container > li {
+    display: inline;
+    text-align: justify;
+}
+
+.social-container i {
+    font-size: 3em;
+    color: #626556;
+    padding: 0 5px;
+
+}
+
