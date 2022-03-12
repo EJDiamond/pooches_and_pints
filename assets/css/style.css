@@ -237,3 +237,18 @@ footer {
 
 }
 
+#email-newsletter {
+    height: 3em;
+    border: #626556 solid 3px;
+    border-radius: 5px;
+    background-color:#d0cbc2;
+}
+
+#submit-email-button {
+    height: 2.6em;
+    background-color: #626556;
+    color: #d0cbc2;
+    border-radius: 5px;
+    font-size: 110%;
+    padding: 0 10px;
+}
