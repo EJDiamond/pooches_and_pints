@@ -294,6 +294,19 @@ footer {
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
+.box-container .box {
+    flex-direction: column;
+    max-width: 350px;
+}
+
+.box-container .box .image-man-dog {
+    max-width: 100%;
+}
+
+.box-container .box .description {
+    margin-left: 0px;
+}
+
 footer {
     display: flex;
     background-color: #d0cbc2;
