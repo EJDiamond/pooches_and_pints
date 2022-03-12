@@ -252,9 +252,30 @@ footer {
     border-radius: 5px;
     font-size: 110%;
     padding: 0 10px;
+    margin-left: 0.5em;
 }
 
 .form-container {
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+    justify-content:center;
+}
+
+#to-top-button {
+    height: 2.6em;
+    background-color: #626556;
+    color: #d0cbc2;
+    border-radius: 5px;
+    font-size: 110%;
+    padding: 0 10px;
+}
+
+#remove-link {
+    text-decoration: none;
+}
+
+.to-top-container {
     display: flex;
     flex-direction: row;
     width: 33%;
