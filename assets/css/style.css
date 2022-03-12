@@ -242,6 +242,7 @@ footer {
     border: #626556 solid 3px;
     border-radius: 5px;
     background-color:#d0cbc2;
+    padding: 0 10px;
 }
 
 #submit-email-button {
@@ -251,4 +252,11 @@ footer {
     border-radius: 5px;
     font-size: 110%;
     padding: 0 10px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+    justify-content:center;
 }
