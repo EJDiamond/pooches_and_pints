@@ -327,6 +327,7 @@ footer {
     display: flex;
     flex-direction: column;
     height: 200px;
+    margin-top: 750px;
 }
 
 .social-container {
