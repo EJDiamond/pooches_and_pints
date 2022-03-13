@@ -186,7 +186,7 @@ nav a {
 
 .events-container > div {
     width: 200px;
-    height: 300px;
+    height: 260px;
     line-height: 60px;
     text-align: center;
 }
@@ -286,6 +286,17 @@ footer {
     flex-direction: row;
     width: 33%;
     justify-content:center;
+}
+
+.location {
+    height: 2.6em;
+    background-color: #d0cbc2;
+    color: #626556;
+    border-radius: 5px;
+    font-size: 110%;
+    padding: 0 10px;
+    margin-top: 20px;
+    
 }
 
 /* For medium screen sizes from 950px wide and down */
