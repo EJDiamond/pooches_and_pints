@@ -14,34 +14,36 @@
 
 <body>
     <header>
-        <a href="index.html">
-            <img id="logo" src="assets/images/pooches_and_pints_logo.png" alt="pooches and pints logo">
-        </a>
-        <h1 id="title">Pooches & Pints</h1>
-        <nav id="menu">
-        <div>
-            <ul>
-                <li>
-                    <a href="index.html" class="active">Home</a>
-                </li>
-                <li>
-                    <a href="#">Locations</a>
-                </li>
-                <li>
-                    <a href="#events-title">Events</a>
-                </li>
-                <li>
-                    <a href="#">Sign Up</a>
-                </li>
-            </ul>
+        <div class="header-container">
+            <a href="index.html">
+                <img class="logo" src="assets/images/pooches_and_pints_logo.png" alt="pooches and pints logo">
+            </a>
+            <h1 class="title">Pooches & Pints</h1>
+            <nav class="menu">
+                <div>
+                    <ul>
+                        <li>
+                            <a href="index.html" class="active">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Locations</a>
+                        </li>
+                        <li>
+                            <a href="#events-title">Events</a>
+                        </li>
+                        <li>
+                            <a href="#">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-        </nav>
 
     </header>
     <section id="hero-outer">
         <div id="hero-image"></div>
         <div id="hero-text">
-            <p>Connecting Mancunian dogs and their owners since 2022</p>
+            <p>Connecting Mancunian dogs and their owners since 2022.</p>
         </div>
     </section>
     <section>
@@ -73,16 +75,21 @@
                 </div>
                 <div class="description">
                     <p>Pooches and pints brings together city dwelling dog lovers from all over the Manchester area. Whether you tend to stick to your local walking routes around the city or venture further afield, our meet ups aim to create new friendships for you and your four legged friends. Evening walks usually include strolling alongside the city’s canal systems followed by some food and drinks at a local bar/ restaurant. If you are interested in a long activity, the lakeside and forest adventures take place at the weekend. For more information on the seperate walks head to our locations page.  </p>
-                    <a href="#">
-                        <button class="location">Locations</button>
+                    <a class="remove-link" href="#">
+                        <button class="button">Locations</button>
                     </a>
                 </div>
             </div>
         </div>
     </section>
     <section id="events">
-        <h1 id="events-title">Events</h1>
-        <p id="events-description">Join our free events by filling out the contact form, letting us know which event you are interested in and whether you have transport or need a ride.</p>
+        <div>
+            <h1 id="events-title">Events</h1>
+            <p id="events-description">Join our free events by filling out the contact form, letting us know which event you are interested in and whether you have transport or need a ride.</p>
+            <a class="remove-link" href="#">
+                <button class="join-us">Join Us</button>
+            </a>
+        </div>
         <div class="events-container">
             <div class="center-events">
                 <h2>Canal</h2>
@@ -90,7 +97,7 @@
                 <p><em>Wed & Fri</em></p>
                 <p>18:30 - 20:30</p>
                 <a href="#">
-                    <button class="location">Location</button>
+                    <button class="button">Location</button>
                 </a>
             </div>
             <div class="center-events">
@@ -99,7 +106,7 @@
                 <p><em>Saturday</em></p>
                 <p>10:30 - 14:30</p>
                 <a href="#">
-                    <button class="location">Location</button>
+                    <button class="button">Location</button>
                 </a>
             </div>
             <div class="center-events">
@@ -108,7 +115,7 @@
                 <p><em>Sunday</em></p>
                 <p>10:00 - 15:00</p>
                 <a href="#">
-                    <button class="location">Location</button>
+                    <button class="button">Location</button>
                 </a>
             </div>
         </div>
@@ -132,7 +139,7 @@
             <input id="email-newsletter" method= post type="email" placeholder="Sign up for Newsletter" required>
             <input id="submit-email-button" type="button" value="Sign Up" aria-label="Sign up for newsletter">
         </form>
-        <a id="remove-link" class="to-top-container" href="index.html">
+        <a class="remove-link" class="to-top-container" href="index.html">
             <button id="to-top-button">
                 <p>Back to top  <i class="fa-solid fa-arrow-up"></i></p>
             </button>
