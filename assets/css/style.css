@@ -367,6 +367,27 @@ footer {
     padding-bottom: 10px;
 }
 
+/* map */
+
+.map-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.map-container .map-description {
+    text-align: center;
+    padding: 20px 0 40px;
+}
+
+.map-container .map-description p {
+    line-height: 2em;
+    font-size: 110%;
+}
+
 
 
 /* For medium screen sizes from 950px wide and down */
@@ -438,4 +459,8 @@ footer {
 .location-container .location-box .location-content {
     margin-left: 0;
 }
+
+.map-container .map {
+    max-width: 350px;
+    overflow: scroll; 
 }
