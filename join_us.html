@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pooches and Pints, social meet ups for people and their dogs in manchester">
+    <meta name="keywords" content="pooches and pints, dog walking, Manchester">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Pooches and Pints</title>
+</head>
+
+<body>
+    <header class="header-container">
+            <a href="index.html">
+                <img class="logo" src="assets/images/pooches_and_pints_logo.png" alt="pooches and pints logo">
+            </a>
+            <h1 class="title">Pooches & Pints</h1>
+            <nav class="menu">
+                <div>
+                    <ul>
+                        <li>
+                            <a href="index.html" class="active">Home</a>
+                        </li>
+                        <li>
+                            <a href="locations.html">Locations</a>
+                        </li>
+                        <li>
+                            <a href="index.html#events-title">Events</a>
+                        </li>
+                        <li>
+                            <a href="join_us.html">Join Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+    <section>
+        <div class="sign-up-container">
+            <div class="sign-up-box">
+                <div class="sign-up-form">
+                    <form>
+                        <ul class="flex-left">
+                            <li>
+                                <label for="fname">First Name</label>
+                                <input id="fname" type="text" name="fname" required>
+                            </li>
+                            <li>
+                                <label for="lname">Last Name</label>
+                                <input id="lname" type="text" name="lname" required>
+                            </li>
+                            <li>
+                                <label for="email">Email</label>
+                                <input method="post" type="email" name="email" required>
+                            </li>
+                                <label for="phone">Phone Number</label>
+                                <input id="phone" type="tel" name="phone-number" required>
+                            </li>
+                        </ul>
+                    </form>
+                    <form>
+                        <ul class="flex-right">
+                            <p>Do you have transport?</p>
+                            <li>
+                                <label for="yes">Yes</label>
+                                <input type="checkbox" id="yes">
+                            </li>
+                            <li>
+                                <label for="no">No</label>
+                                <input type="checkbox" id="no">
+                            </li>
+                            <li>
+                            <button type="submit">submit</button>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-wrapper">
+        <ul class="social-container">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram-square"></i></i></a>
+            </li>
+        </ul>
+        <form class="form-container">
+            <input id="email-newsletter" method="post" type="email" name="email" placeholder="Sign up for Newsletter" required>
+            <input id="submit-email-button" type="button" value="Sign Up" aria-label="Sign up for newsletter">
+        </form>
+        <a class="remove-link" class="to-top-container" href="index.html">
+            <button id="to-top-button">
+                <p>Back to top  <i class="fa-solid fa-arrow-up"></i></p>
+            </button>
+        </a>
+    </footer>
+
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/b7fb006b67.js" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>
