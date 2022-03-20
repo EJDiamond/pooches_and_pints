@@ -177,7 +177,6 @@ display: block;
 /* events */
 
 #events {
-    height: 800px;
     width: 100%;
     position: relative;
 }
@@ -238,6 +237,7 @@ display: block;
 /* footer */
 
 footer {
+    position: absolute;
     display: flex;
     background-color: #d0cbc2;
     height: 150px;
@@ -390,7 +390,6 @@ footer {
 
 .sign-up-container {
     position: relative;
-    display: flex;
     width: 100%;
     height: 700px;
     margin-top: 40px;
@@ -398,24 +397,19 @@ footer {
     background: url(../images/two_women_and_their_dogs.png) no-repeat center center;
 }
 
-.sign-up-container .sign-up-form {
+.sign-up-form {
+    position: absolute;
     color: #626556;
     background: rgba(208, 203, 194, .8);
-    display: flex;
-    height: 275px;
-    width: 500px;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
+    border-radius: 1em;
     padding: 30px;
     line-height: 30px;
+    margin: 60px 10% 0 0;
+    left: 12%;
 }
 
-.flex-left, .flex-right {
+.sign-up-form li {
     list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .text-input {
@@ -425,7 +419,32 @@ footer {
     margin: 5px 0 10px;
     border:#626556 solid 2px;
     border-radius: 3px;
+}
 
+.text-input:hover {
+    background-color: #626556;
+}
+
+#submit-button {
+    height: 2.6em;
+    background-color: #626556;
+    color: #d0cbc2;
+    border-radius: 5px;
+    font-size: 110%;
+    padding: 0 10px;
+    margin-top: 40px;
+}
+
+#submit-button:hover{
+    background-color: #d0cbc2;
+    color: #626556;
+    border: #626556 solid 3px;
+}
+
+.radio {
+    margin-top: 15px;
+    background-color: #d0cbc2;
+    border: #626556 solid 3px;
 }
 
 /* For medium screen sizes from 950px wide and down */
@@ -473,7 +492,6 @@ footer {
     display: flex;
     flex-direction: column;
     height: 200px;
-    margin-top: 750px;
 }
 
 .social-container {
