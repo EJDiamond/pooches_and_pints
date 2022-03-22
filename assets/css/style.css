@@ -166,7 +166,7 @@ nav a {
     text-align: justify;
 }
 
-.box-container .button {
+.box-container .location-button {
 background-color: #626556;
 color: #d0cbc2;
 text-align: center;
@@ -285,27 +285,11 @@ footer {
     margin-left: 0.5em;
 }
 
-#to-top-button {
-    height: 2.6em;
-    background-color: #626556;
-    color: #d0cbc2;
-    border-radius: 5px;
-    font-size: 110%;
-    padding: 0 10px;
-}
-
 .remove-link {
     text-decoration: none;
 }
 
-.to-top-container {
-    display: flex;
-    flex-direction: row;
-    width: 33.3%;
-    justify-content:center;
-}
-
-.button {
+.location-button {
     height: 2.6em;
     background-color: #d0cbc2;
     color: #626556;
