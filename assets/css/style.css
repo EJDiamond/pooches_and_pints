@@ -248,19 +248,19 @@ footer {
     margin-top: 40px;
 }
 
-.social-container {
+.footer-container {
     display: flex;
     flex-direction: row;
     width: 33.3%;
     justify-content:center;
 }
 
-.social-container > li {
+.footer-container > li {
     display: inline;
     text-align: justify;
 }
 
-.social-container i {
+.footer-container li i {
     font-size: 3em;
     color: #626556;
     padding: 0 5px;
@@ -268,13 +268,14 @@ footer {
 
 #email-newsletter {
     height: 3em;
+    width: 12em;
     border: #626556 solid 3px;
     border-radius: 5px;
     background-color:#d0cbc2;
     padding: 0 10px;
 }
 
-#submit-email-button {
+.green-button {
     height: 2.6em;
     background-color: #626556;
     color: #d0cbc2;
@@ -282,13 +283,6 @@ footer {
     font-size: 110%;
     padding: 0 10px;
     margin-left: 0.5em;
-}
-
-.form-container {
-    display: flex;
-    flex-direction: row;
-    width: 33.3%;
-    justify-content:center;
 }
 
 #to-top-button {

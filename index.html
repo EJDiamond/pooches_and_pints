@@ -118,7 +118,7 @@
         </div>
     </section>
     <footer class="footer-wrapper">
-        <ul class="social-container">
+        <ul class="footer-container">
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
                     aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-square"></i></a>
@@ -132,14 +132,16 @@
                     aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram-square"></i></i></a>
             </li>
         </ul>
-        <form class="form-container">
-            <input id="email-newsletter" method="post" type="email" name="email" placeholder="Sign up for Newsletter" required>
-            <input id="submit-email-button" type="button" value="Sign Up" aria-label="Sign up for newsletter">
+        <form class="footer-container" method="POST" action="https://formdump.codeinstitute.net/">
+            <input id="email-newsletter" type="email" name="email" placeholder="Enter email for Newsletter" required>
+            <button type="submit" class="green-button"><i class="fa-solid fa-user-plus"></i></button>
         </form>
-        <a class="remove-link" class="to-top-container" href="index.html">
-            <button id="to-top-button">
-                <p>Back to top  <i class="fa-solid fa-arrow-up"></i></p>
+        <div class="footer-container">
+        <a class="remove-link" href="index.html">
+            <button class="green-button">
+                <i class="fa-solid fa-angles-up"></i>
             </button>
+        </div>
         </a>
     </footer>
 
