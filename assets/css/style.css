@@ -85,16 +85,15 @@ nav a {
 
 }
 
-
 /* hero image and text */
 
 .hero-outer {
-    height: 80vh;
+    overflow: hidden;
 }
 
 .hero-image {
-    height: 110%;
-    background: url(../images/hero_image.png) no-repeat center;
+    height: 85vh;
+    background: url(../images/hero_image.png) no-repeat center center;
     background-size: contain;
     position: relative;
 }
@@ -141,7 +140,7 @@ nav a {
     position: relative;
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -452,9 +451,11 @@ footer {
 .center-all-about {
     padding-top: 20px;
 }
+
 .box-container .box {
     flex-direction: column;
     max-width: 350px;
+    justify-content: center;
 }
 
 .box-container .box .image-man-dog {
