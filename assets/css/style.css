@@ -51,7 +51,6 @@ h2 {
 .title {
     font-size: 230%;
     text-transform: capitalize;
-    flex: 1;
 }
 
 .logo {
@@ -93,12 +92,13 @@ nav a {
 
 .hero-outer {
     overflow: hidden;
+    padding-bottom: 40px;
 }
 
 .hero-image {
     height: 85vh;
-    background: url(../images/hero_image.png) no-repeat center center;
-    background-size: contain;
+    background: url(../images/two_women_and_their_dogs.png) no-repeat center center;
+    background-size: cover;
     position: relative;
 }
 
@@ -111,8 +111,8 @@ nav a {
     height: 70px;
     padding: 10px;
     position: absolute;
-    right: 0;
-    bottom: 360px;
+    left: 0;
+    bottom: 380px;
 }
 
 /* what its all about */
