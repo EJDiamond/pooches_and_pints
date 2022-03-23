@@ -97,22 +97,21 @@ nav a {
 
 .hero-image {
     height: 95vh;
-    background: url(../images/hero-image-1.png) no-repeat center center;
+    background: url(../images/hero-image-1.png) no-repeat;
     background-size: cover;
     position: relative;
 }
 
 .hero-text {
-    font-size: 90%;
-    letter-spacing: 2px;
+    font-size: 2vh;
     color:#626556;
     background-color: rgba(208, 203, 194, .8);
-    width: 210px;
-    height: 70px;
-    padding: 10px;
+    width: 25vh;
+    padding: 5px;
     position: absolute;
     left: 0;
-    bottom: 380px;
+    bottom: 67vh;
+    border-radius: 0.5em;
 }
 
 /* what its all about */
