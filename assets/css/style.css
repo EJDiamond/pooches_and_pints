@@ -437,6 +437,35 @@ footer {
     border: #626556 solid 3px;
 }
 
+/* 404 page */
+
+.error-image {
+position: relative;
+width: 100%;
+height: 100vh;
+background: url(../images/sad-dog.webp) no-repeat center center;
+background-size: cover;
+justify-content: center;
+}
+
+.error-text {
+    color:#626556;
+    background-color: rgba(208, 203, 194, .8);
+    width: 40vh;
+    padding: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 80vh;
+    border-radius: 0.5em;
+    margin-left: 10vh;
+    text-align: center;
+}
+
+.error-text a {
+    color: #626556;
+    text-decoration: underline;
+}
+
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
