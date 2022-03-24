@@ -395,7 +395,7 @@ footer {
     border-radius: 1em;
     padding: 30px;
     line-height: 30px;
-    margin-top: 30px;
+    margin: 30px;
 }
 
 .sign-up-form li {
@@ -443,6 +443,10 @@ footer {
 .header-container {
     flex-direction: column;
     justify-content: center;
+}
+
+.menu {
+    font-size: 0.8em;
 }
 
 .hero-image {
