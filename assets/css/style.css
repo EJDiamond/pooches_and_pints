@@ -481,10 +481,21 @@ footer {
 }
 
 .close {
-    color:#d0cbc2;
+    font-size: 80%;
+    color:#626556;
+    background: #d0cbc2;
     position: absolute;
     text-decoration: none;
-    padding: 7px 9px 11px 9px;
+    padding: 0 3px;
+    border: #626556 solid 2px;
+    border-radius: 50%;
+    right: 1px;
+    top: 1px;
+}
+
+.close:hover {
+    color: #d0cbc2;
+    background: #626556;
 }
 
 
