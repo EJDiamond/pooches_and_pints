@@ -423,6 +423,13 @@ footer {
     font-size: 110%;
     padding: 0 10px;
     margin-top: 40px;
+    transition: color 1000ms;
+}
+
+.submit {
+    text-decoration: none;
+     color: #d0cbc2;
+     transition: color 1000ms;
 }
 
 #submit-button:hover{
@@ -430,12 +437,49 @@ footer {
     color: #626556;
     border: #626556 solid 3px;
 }
+.submit:hover {
+    color: #626556;
+}
 
 .radio {
     margin-top: 15px;
     background-color: #d0cbc2;
     border: #626556 solid 3px;
 }
+
+/* modal */
+
+/*.modal-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(208, 203, 194, 0.8em);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 500ms ease;
+}*/
+
+.modal {
+    width: 350px;
+    height: 175px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:#626556;
+}
+
+.modal-content {
+    width: 100%;
+    display: block;
+    height: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
 
 /* 404 page */
 
