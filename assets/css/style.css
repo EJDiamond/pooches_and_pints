@@ -49,7 +49,7 @@ h2 {
 }
 
 .title {
-    font-size: 3em;
+    font-size: 3rem;
     text-transform: capitalize;
 }
 
@@ -66,7 +66,7 @@ h2 {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-size: 1.5em;
+    font-size: 1rem;
 }
 
 nav li {
@@ -99,24 +99,25 @@ nav a {
 }
 
 .hero-text {
-    font-size: 1.25em;
+    font-size: 1rem;
     color:#626556;
     background-color: rgba(208, 203, 194, .8);
     width: 32vh;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 30px;
+    padding-right: 10px;
     margin-left: 10px;
     position: absolute;
     left: 0;
     bottom: 50vh;
-    border-radius: 0.5em;
+    border-radius: 0.2rem;
 }
 
 /* what its all about */
 
 #about-title {
-    font-size: 230%;
+    font-size: 2.5rem;
     letter-spacing: 2px;
     text-align: center;
     text-transform: capitalize;
@@ -189,7 +190,7 @@ display: block;
 }
 
 #events-title {
-    font-size: 230%;
+    font-size: 2.5rem;
     letter-spacing: 2px;
     text-align: center;
     margin: 40px;
@@ -537,24 +538,49 @@ justify-content: center;
 /* for medium screen sizes from 1024px wide and down */
 @media screen and (max-width: 1024px) {
 
-/*.title {
-    font-size: 0.75rem;
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .menu {
+        font-size: 1.2rem;
+    }
+
+    .hero-image {
+        height: 60vh;  
+    }
+
+    .hero-text {
+        font-size: 1rem;
+        bottom: 62vh;
+        width: 32vh;
+    }
+
+    #about-title {
+        font-size: 2rem;
+    }
+
+    #events-title {
+        font-size: 2rem;
+    }
 }
 
-.menu {
-    font-size: 0.75rem;
-}*/
+/* for medium screen sizes from 920px wide and down */
+@media screen and (max-width: 920px) {
 
-.hero-image {
-    height: 60vh;  
-}
+    .menu {
+        font-size: 1rem;
+    }
 
-.hero-text {
-    font-size: 1rem;
-    bottom: 68vh;
-    width: 32vh;
-}
-}
+    .hero-text {
+        font-size: 0.7rem;
+        bottom: 62vh;
+        width: 32vh;
+    }
+
+
+
+
 
 /* for medium screen sizes from 768px wide and down */
 @media screen and (max-width: 768px) {
