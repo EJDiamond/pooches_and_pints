@@ -556,26 +556,42 @@ justify-content: center;
         width: 32vh;
     }
 
-    #about-title {
-        font-size: 2rem;
+    #about-title  {
+        font-size: 2.5rem;
     }
 
     #events-title {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 }
 
 /* for medium screen sizes from 920px wide and down */
 @media screen and (max-width: 920px) {
 
+    .title {
+        font-size: 2rem;
+    }
+
     .menu {
         font-size: 1rem;
     }
 
     .hero-text {
-        font-size: 0.7rem;
-        bottom: 62vh;
+        font-size: 0.8rem;
+        bottom: 56vh;
         width: 32vh;
+    }
+
+    #about-title  {
+        font-size: 2rem;
+    }
+
+    #events-title {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
     }
 
 
