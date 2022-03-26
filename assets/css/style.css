@@ -49,7 +49,7 @@ h2 {
 }
 
 .title {
-    font-size: 230%;
+    font-size: 3em;
     text-transform: capitalize;
 }
 
@@ -66,6 +66,7 @@ h2 {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-size: 1.5em;
 }
 
 nav li {
@@ -90,11 +91,6 @@ nav a {
 
 /* hero image and text */
 
-/*.hero-outer {
-    overflow: hidden;
-    height: 95vh;
-}*/
-
 .hero-image {
     height: 95vh;
     background: url(../images/hero-image.webp) no-repeat;
@@ -103,14 +99,17 @@ nav a {
 }
 
 .hero-text {
-    font-size: 2vh;
+    font-size: 1.25em;
     color:#626556;
     background-color: rgba(208, 203, 194, .8);
-    width: 25vh;
-    padding: 5px;
+    width: 32vh;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    margin-left: 10px;
     position: absolute;
     left: 0;
-    bottom: 67vh;
+    bottom: 50vh;
     border-radius: 0.5em;
 }
 
@@ -121,6 +120,7 @@ nav a {
     letter-spacing: 2px;
     text-align: center;
     text-transform: capitalize;
+    margin-top: 40px;
 
 }.all-about-container {
     display: flex;
@@ -372,7 +372,7 @@ footer {
     font-size: 110%;
 }
 
-/* Join us page */
+/* join us page */
 
 .sign-up-container {
     position: relative;
@@ -503,7 +503,6 @@ footer {
     background: #626556;
 }
 
-
 /* 404 page */
 
 .error-image {
@@ -533,8 +532,32 @@ justify-content: center;
     text-decoration: underline;
 }
 
-/* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
+/* media queries*/
+
+/* for medium screen sizes from 1024px wide and down */
+@media screen and (max-width: 1024px) {
+
+/*.title {
+    font-size: 0.75rem;
+}
+
+.menu {
+    font-size: 0.75rem;
+}*/
+
+.hero-image {
+    height: 60vh;  
+}
+
+.hero-text {
+    font-size: 1rem;
+    bottom: 68vh;
+    width: 32vh;
+}
+}
+
+/* for medium screen sizes from 768px wide and down */
+@media screen and (max-width: 768px) {
 
 .header-container {
     flex-direction: column;
@@ -548,6 +571,10 @@ justify-content: center;
 .hero-image {
     background-size: contain;
 }
+
+/*.hero-text {
+    font-size: .75em;
+}*/
 
 .logo {
     display: none;
@@ -588,7 +615,7 @@ justify-content: center;
 .footer-wrapper {
     display: flex;
     flex-direction: column;
-    height: 200px;
+    height: 172px;
 }
 
 .social-container {
