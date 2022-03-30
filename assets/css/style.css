@@ -397,6 +397,11 @@ footer {
     font-size: 110%;
 }
 
+.map {
+    border: #d0cbc2 solid 4px;
+    border-radius: 2px;
+}
+
 /* join us page */
 
 .sign-up-container {
