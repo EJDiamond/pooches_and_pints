@@ -777,9 +777,14 @@ justify-content: center;
         text-align: center;
     }
     
+    .location-container .location-box {
+        margin: 20px 0;
+    }
+
     .location-container .location-box .location-image {
         max-width: 500px;
         flex: 0 0 180px;
+    }
 
     .map {
         width: 278px;
@@ -792,6 +797,4 @@ justify-content: center;
     .modal {
         width: 320px;
     }
-
-    
 }
