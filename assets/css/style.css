@@ -175,11 +175,17 @@ nav a {
 }
 
 .box-container .location-button {
-background-color: #626556;
-color: #d0cbc2;
-text-align: center;
-margin: 40px auto;
-display: block;
+    background-color: #626556;
+    color: #d0cbc2;
+    text-align: center;
+    margin: 40px auto;
+    display: block;
+}
+
+.box-container .location-button:hover {
+    background-color: #d0cbc2;
+    color: #626556;
+    border: #626556 solid 3px;
 }
 
 /* events */
@@ -214,6 +220,12 @@ display: block;
     padding: 0 10px;
     display: block;
     margin: 40px auto;
+}
+
+.join-us:hover{
+    background-color: #626556;
+    color: #d0cbc2;
+    border: #d0cbc2 solid 3px;
 }
 
 .events-container {
@@ -293,6 +305,12 @@ footer {
     margin-left: 0.5em;
 }
 
+.green-button:hover {
+    background-color: #d0cbc2;
+    color: #626556;
+    border: #626556 solid 3px;
+}
+
 .remove-link {
     text-decoration: none;
 }
@@ -305,6 +323,12 @@ footer {
     font-size: 110%;
     padding: 0 10px;
     margin-top: 20px;
+}
+
+.location-button:hover{
+    background-color:#626556;
+    color: #d0cbc2;
+    border: #d0cbc2 solid 3px;
 }
 
 /*locations page */
@@ -438,6 +462,7 @@ footer {
     color: #626556;
     border: #626556 solid 3px;
 }
+
 .submit:hover {
     color: #626556;
 }
@@ -755,7 +780,7 @@ justify-content: center;
     }
 
     .hero-text {
-        font-size: 0.5rem;
+        font-size: 0.6rem;
         width: 95px;
         padding-left: 4px;
         padding-right: 2px;
