@@ -741,3 +741,57 @@ justify-content: center;
         margin-top: 0;
     }
 }
+
+/* for screen sizes from 320px wide and down */
+
+@media screen and (device-width: 320px) and (device-height: 480px) {
+
+    .hero-outer {
+        height: 140px;
+    }
+
+    .hero-image {
+        height: 140px;
+    }
+
+    .hero-text {
+        font-size: 0.5rem;
+        width: 95px;
+        padding-left: 4px;
+        padding-right: 2px;
+        line-height: 15px;
+        margin-left: 3px;
+        position: relative;
+        bottom: 130px;
+    }
+
+    #about-title, #events-title {
+        font-size: 1.4rem;
+    }
+
+    h2 {
+        font-size: 1.0rem;
+    }
+
+    .center-all-about {
+        text-align: center;
+    }
+    
+    .location-container .location-box .location-image {
+        max-width: 500px;
+        flex: 0 0 180px;
+
+    .map {
+        width: 278px;
+    }
+
+    .map-container .map-description {
+        padding: 20px 20px 40px; 
+    }
+
+    .modal {
+        width: 320px;
+    }
+
+    
+}
