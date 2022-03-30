@@ -11,8 +11,11 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Pooches and Pints</title>
 </head>
+<!--flex container to ensure resposive layout of page-->
 <div class="body-container">
 <body>
+    <!--HEADER CONTAINER-->
+    <!-- Container header section, including flex box for title and logo combined and seperate box for navigation links for responsive design -->
     <header class="header-container">
         <div class="logo-title">
             <div>
@@ -23,6 +26,7 @@
             <div>
                 <h1 class="title">Pooches & Pints</h1>
             </div>
+    <!--Navigaion bar with 2 links to seperate location and join up pages and 1 link to events section on index page-->
         </div>
             <nav class="menu">
                 <div>
@@ -43,14 +47,21 @@
                 </div>
             </nav>
     </header>
+    <!--HERO SECTION-->
+    <!--hero container-->
     <section class="hero-outer">
+        <!--hero image-->
         <div class="hero-image"></div>
+        <!--hero image text overlay decribing the purpose of website-->
         <div class="hero-text">
             <p>Pooches and Pints has been proudly connecting Mancunian dogs and their owners with others since 2022.</p>
         </div>
     </section>
+    <!--ALL ABOUT SECTION-->
     <section>
+        <!--all about section header-->
         <h1 id="about-title">What is it all about?</h1>
+        <!--4 main 'about' points and icons describing what the group is about, in flex container for responsive design-->
         <div class="all-about-container">
                 <div class="center-all-about">
                 <h2>Socialising <i class="fa-solid fa-handshake-angle"></i></h2>
@@ -70,14 +81,19 @@
             </div>
         </div>
     </section>
+    <!--DESCRIPTION SECTION-->
     <section>
+        <!--container for image and description of website content, flex contained for resposive design-->
         <div class="box-container">
             <div class="box">
+                <!--image of man and dog in a beer garden for visual aid-->
                 <div class="image-man-dog">
                     <img src="./assets/images/man_and_dog.webp" alt="man and dog in beer garden">
                 </div>
+                <!--description of what the group is about-->
                 <div class="description">
                     <p>Pooches and pints brings together city dwelling dog lovers from all over the Manchester area. Whether you tend to stick to your local walking routes around the city or venture further afield, our meet ups aim to create new friendships for you and your four legged friends. Evening walks usually include strolling alongside the city’s canal systems followed by some food and drinks at a local bar/ restaurant. If you are interested in a long activity, the lakeside and forest adventures take place at the weekend. For more information on the seperate walks head to our locations page.  </p>
+                    <!--anchor button to location page for more info on each location-->
                     <a class="remove-link" href="locations.html">
                         <button class="location-button">Locations</button>
                     </a>
@@ -85,63 +101,82 @@
             </div>
         </div>
     </section>
+    <!--EVENTS SECTION-->
     <section id="events">
         <div>
+            <!--events section header-->
             <h1 id="events-title">Events</h1>
+            <!--paragraph explaing join up process-->
             <p id="events-description">Join our free events by filling out the contact form, letting us know which event you are interested in and whether you have transport or need a ride.</p>
+            <!--button anchored to join up page-->
             <a class="remove-link" href="join_us.html">
                 <button class="join-us">Join Us</button>
             </a>
         </div>
+        <!--3 containers for the different locations and times in flex boxes for responsive design-->
         <div class="events-container">
             <div class="center-events">
+                <!--canal walk information-->
                 <h2>Canal</h2>
                 <h2>Walk</h2>
                 <p><em>Wed & Fri</em></p>
                 <p>18:30 - 20:30</p>
+                <!--anchor button to canal section on location page-->
                 <a href="locations.html#canal-walk">
                     <button class="location-button">Location</button>
                 </a>
             </div>
             <div class="center-events">
+                <!--lakeside walk information-->
                 <h2>Lakeside</h2>
                 <h2>Walk</h2>
                 <p><em>Saturday</em></p>
                 <p>10:30 - 14:30</p>
+                <!--anchor button to lakeside section on location page-->
                 <a href="locations.html#lakeside-walk">
                     <button class="location-button">Location</button>
                 </a>
             </div>
             <div class="center-events">
+                <!--forest walk information-->
                 <h2>Forest</h2>
                 <h2>Adventure</h2>
                 <p><em>Sunday</em></p>
                 <p>10:00 - 15:00</p>
+                <!--anchor button to forest section on location page-->
                 <a href="locations.html#forest-adventure">
                     <button class="location-button">Location</button>
                 </a>
             </div>
         </div>
     </section>
+    <!--FOOTER SECTION-->
+    <!--footer items in 3 flex containers for responsive design when in row and column depending on device size-->
     <footer class="footer-wrapper">
+        <!--container 3 social links-->
         <ul class="footer-container">
+            <!--link to facebook page, opening blank page-->
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
                     aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-square"></i></a>
             </li>
+            <!--link to twwitter page, opening blank page-->
             <li>
                 <a href="https://twitter.com" target="_blank" rel="noopener"
                     aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
             </li>
+            <!--link to instagram page, opening blank page-->
             <li>
                 <a href="https://instagram.com" target="_blank" rel="noopener"
                     aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram-square"></i></i></a>
             </li>
         </ul>
+        <!--container for sign up form with placeholder and submit button-->
         <form class="footer-container" method="POST" action="https://formdump.codeinstitute.net/">
             <input id="email-newsletter" type="email" name="email" placeholder="Enter email for Newsletter" required>
             <button type="submit" class="green-button"><i class="fa-solid fa-user-plus"></i></button>
         </form>
+        <!--button for to top of page button-->
         <div class="footer-container">
         <a class="remove-link" href="index.html">
             <button class="green-button">

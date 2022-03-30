@@ -13,6 +13,8 @@
 </head>
 
 <body>
+    <!--HEADER CONTAINER-->
+    <!--heading, logo and nav bar, same as index.html page-->
     <header class="header-container">
         <div class="logo-title">
             <div>
@@ -44,13 +46,20 @@
             </nav>
     </header>
     <section>
+        <!--LOCATION CONTAINER-->
+        <!--flexbox used to organise locations boxes for responsive design-->
         <div class="location-container">
+            <!--canal location box containing image of a canal and details of walk-->
             <div id="canal-walk" class="location-box">
-                <div class="location-image">
+                    <!--image of canal for canal walk location-->
+                    <div class="location-image">
                     <img src="./assets/images/canal.webp" alt="Canal in the city">
                 </div>
+                <!--meeting information for canal walk-->
                 <div class="location-content">
+                    <!--canal heading and icon-->
                     <h2>Canal Walk - City Centre <i class="fa-solid fa-city"></i></h2>
+                    <!--canal schedule info-->
                     <ul>
                         <li>Meet up point: Deansgate train station</li>
                         <li>Duration: 2 hours</li>
@@ -59,12 +68,17 @@
                     </ul>   
                 </div>       
             </div>
+            <!--lakeside location box containing lakeside image, with details of walk-->
             <div id="lakeside-walk" class="location-box">
+                <!--image of man and dog lakeside, with walk location information-->
                 <div class="location-image">
                     <img src="./assets/images/man-and-dog-by-lake.webp" alt="Man and dog walking by a lake">
                 </div>
+                <!--meeting information for lakeside walk-->
                 <div class="location-content">
+                    <!--lakeside heading and icon-->
                     <h2>Lakeside Stroll - Sale Waterpark <i class="fa-solid fa-water"></i></h2>
+                    <!--lakeside walk schedule info-->
                     <ul>
                         <li>Meet up point: Deansgate train station</li>
                         <li>Duration: 4 hours</li>
@@ -73,12 +87,17 @@
                     </ul>
                 </div>
             </div>
+            <!--forest location box containing forest image, with details of walk-->
             <div class="location-box">
+                <!--image of man and dog lakeside, with walk location information-->
                 <div id="forest-adventure" class="location-image">
                     <img src="./assets/images/dog-and-women-in-forest.webp" alt="One dog and two people in a forest">
                 </div>
+                <!--meeting information for forest walk-->
                 <div class="location-content">
+                    <!--forest heading and icon-->
                     <h2>Forest Adventure - Delamere Forest <i class="fa-solid fa-tree"></i></h2>
+                    <!--forest walk schedule info-->
                     <ul>
                         <li>Meet up point: Deansgate train station</li>
                         <li>Duration: 5 hours</li>
@@ -89,8 +108,11 @@
             </div>
         </div>
     </section>
+    <!--MAP SECTION-->
     <section>
+        <!--container for map and description to ensure responsive design-->
         <div class="map-container">
+            <!--description of meeting point for all walks-->
             <div class="map-description">
                 <p>
                     We begin all walks at Deansgate train staion in the centre of Manchester.
@@ -99,15 +121,18 @@
                     Address: Deansgate, Manchester M3 4LG
                 </p>
             </div>
+            <!--iframe containing map of start point for all walks-->
             <div class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.6801890223383!2d-2.253188684615538!3d53.47417547283034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1e6281dd63f%3A0xf540b03ce1c8a95c!2sDeansgate!5e0!3m2!1sen!2suk!4v1646602992383!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
             <div>
+                <!--join up buttion linking to join us page-->
                 <a class="remove-link" href="join_us.html">
                     <button class="join-us">Join Us</button>
                 </a>
             </div>
         </div>
+    <!--footer section, same as index.html-->
     </section>
     <footer class="footer-wrapper">
         <ul class="footer-container">
