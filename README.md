@@ -51,7 +51,7 @@ Pooches and Pints is a site bringing together people and their pets across the M
 
 ### Existing Features
 
-- Navigation Bar
+- __Navigation Bar__
 
    - The fully responsive navigation bar will consist of a logo, including logo image and title, as well as 4 navigation links, preventing the user from having to press back once they reach another page of the site.
    - It will be the same across the three pages for continuinty, making it easier for the user to learn and use quickly.
@@ -59,7 +59,7 @@ Pooches and Pints is a site bringing together people and their pets across the M
 
 ![Navigation bar](assets/images/navigation_bar.png)
 
-- Landing Image
+- __Landing Image__
 
    - The hero image is eye catching and draws the user in, introducing them to Pooches and Pints.
    - The text overlay effectively explains what the site is about, the user being targeted and the area the meetups are located.
@@ -67,7 +67,7 @@ Pooches and Pints is a site bringing together people and their pets across the M
 
 ![Landing image](assets/images/landing-image.png)
 
-- All About Section
+- __All About Section__
 
    - The all about section outlines what the user will experience and benefit from if they join the Pooch and Pints meet ups, drawing them in and encouraging them to join.
    - The four main points have familiar icons the user will recognise making the section more relatable, whilst being responsive and easy to read on all screen types.
@@ -78,7 +78,7 @@ Pooches and Pints is a site bringing together people and their pets across the M
 
 ![All about section](assets/images/all_about_section.png)
 
-- Events Section
+- __Events Section__
 
    - This section has a short paragraph explaining that the user can use the button below it, to navigate to the join up page, as opposed to scrolling back up to the navigation bar in the footer.
    - The three boxes outline clearly the seperate events, the style, duration and location of each walk.
@@ -87,7 +87,7 @@ Pooches and Pints is a site bringing together people and their pets across the M
 
 ![Events section](assets/images/event_details.png)
 
-- Footer
+- __Footer__
    
    - The footer which is replicated on each page, has the opposite colour scheme to the rest of the pages making it stand out to the user and show clearly the elements it contains.
    - The social links, newsletter form with button and "to the top" button are all of a consistent size, making them more streamline and aesthetically pleasing to the user.
@@ -97,7 +97,7 @@ Pooches and Pints is a site bringing together people and their pets across the M
 
 ![Footer](assets/images/footer.png)
 
-- Locations Section
+- __Locations Section__
 
    - The location section is broken up into the three corresponding events on the homepage, each has a clear image of the walk location and the walk information clearly next to it.
    - Showing images of the locations lets the user know what they can expect from each and in turn will help them to decide which walk is for them.
@@ -107,7 +107,7 @@ Pooches and Pints is a site bringing together people and their pets across the M
 
 ![Locations images and details](assets/images/location_descriptions.png)
 
-- Meet Up Location Map
+- __Meet Up Location Map__
    
    - Above the map is a short description and address outlining the meet up location of all the walks.
    - The map is centered and clear in a small border, linked to a google map.
@@ -116,19 +116,19 @@ Pooches and Pints is a site bringing together people and their pets across the M
 
 ![Meet up location map](assets/images/map.png)
 
-- Sign Up Page
+- __Sign Up Page__
 
    - This page allows the user to sign up for Pooches and Pints by entering their full name, email and phone number as well as selecting whether or not they have their own transport.
 
 ![Sign up page](assets/images/sign_up_form.png)
 
-- Thank You Pop Up
+- __Thank You Pop Up__
 
    - Once the user has entered their information into the form and pressed submit, the thank you modal will pop up.
 
 ![Thank you modal](assets/images/thank_you_modal.png)
 
-- 404 Error Page
+- __404 Error Page__
 
    - The 404 error page contains a relevant image and an text layover explaining to the user they have reached a page that doesn't exist, with a link back to the Pooches and Pints homepage.
 
