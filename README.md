@@ -23,9 +23,8 @@ Pooches and Pints is a site bringing together people and their pets across the M
 
 #### Frequent User Goals
 
-- a) As a Frequent User, I want to check to see if there are any newly added locations or meet ups times.
-- b) As a Frequent User, I want to check to see if the existing weekly events have had any changes made.
-- c) As a Frequent User, I want to sign up to the Newsletter so that I am emailed with any newly scheduled events.
+- a) As a Frequent User, I want to check to see if the existing weekly events have had any changes made.
+- b) As a Frequent User, I want to sign up to the Newsletter so that I am emailed with any newly scheduled events.
 
 ### Design
 
@@ -184,12 +183,19 @@ Pooches and Pints is a site bringing together people and their pets across the M
 
    - a) As a Returning Visitor, I want to find information about weekly meet ups.
       - Information on weekly meet ups is displayed clearly on the sites home page, the user simply scrolls down from the heading.
-      - Alternatively, the user can use the events link in the navigation bar.
+      - Alternatively, the user can use the events link in the navigation bar to save time scrolling.
+
    - b) As a Returning Visitor, I want to find the best way to get in contact and sign up for weekly events.
+      - Sign up for newsletter forms are located in the footer on each page with icon buttons clearly showing what is achived by filling it in.
+      - The sign up page is clear and concise with inputs for first and last name as well as email and phone number. 
 
 #### Frequent User Goals
 
-- a) As a Frequent User, I want to check to see if there are any newly added locations or meet ups times.
-- b) As a Frequent User, I want to check to see if the existing weekly events have had any changes made.
-- c) As a Frequent User, I want to sign up to the Newsletter so that I am emailed with any newly scheduled events.
+   - a) As a Frequent User, I want to check to see if the existing weekly events have had any changes made.
+      -  The events section is clearly laid out with all the main information including locations, times and dates.
+      - The location page gives more detailed information on all events.
+
+   - b) As a Frequent User, I want to sign up to the Newsletter so that I am emailed with any newly scheduled events.
+      - Sign up for newsletter forms are located in the footer on each page with icon buttons clearly showing what is achived by filling it in.
+
 
