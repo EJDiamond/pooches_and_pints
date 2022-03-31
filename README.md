@@ -152,3 +152,11 @@ Pooches and Pints is a site bringing together people and their pets across the M
    - The background hero image is changed from a cover to contain background so as the user can still experience the full image on smaller screens.
 
    ![Responsiveness](assets/images/responsive_one.png)
+
+## Validator Testing
+
+- HTML
+   - No errors were shown when passed through the HTML [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fejdiamond.github.io%2Fpooches_and_pints%2F)
+
+- CSS
+   - No errors were shown when passed through the [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fejdiamond.github.io%2Fpooches_and_pints%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
