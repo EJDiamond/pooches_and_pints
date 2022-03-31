@@ -1,6 +1,9 @@
 # Pooches & Pints
 
 [View the live project here](https://ejdiamond.github.io/pooches_and_pints/index.html)
+
+![Responsive Design Image](/assets/images/responsive_design.png)
+
 ## User Experience (UX)
 
 ### User stories
