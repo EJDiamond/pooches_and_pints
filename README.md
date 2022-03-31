@@ -1,5 +1,7 @@
 # Pooches & Pints
 
+Pooches and Pints is a site bringing together people and their pets across the Manchester area. Pet owners looking to meet and socialise with other people will come to the site to join others at organsied times and locations. People without transport who are normally confined to the city will be able to get out and explore with the help of fellow dog walkers, and those who normally walk alone will find friends in the community and enjoy their pets together.
+
 [View the live project here](https://ejdiamond.github.io/pooches_and_pints/index.html)
 
 ![Responsive Design Image](/assets/images/responsive_design.png)
