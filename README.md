@@ -144,3 +144,11 @@ Pooches and Pints is a site bringing together people and their pets across the M
 ## Buttons
 
    - All anchors across the site link to the relevant sections they were intended to navigate to.
+
+## Responsiveness
+
+   - When the user is viewing on different size screens the content changes dependent on the screen.
+   - Below screen width 780px elements of the design including the header, footer and other body content, take the direction of column using a flex both, meaning when the screen size is reduced to this size the user simply has to scroll down.
+   - The background hero image is changed from a cover to contain background so as the user can still experience the full image on smaller screens.
+
+   ![Responsiveness](assets/images/responsive_one.png)
