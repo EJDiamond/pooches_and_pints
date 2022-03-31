@@ -4,7 +4,7 @@ Pooches and Pints is a site bringing together people and their pets across the M
 
 [View the live project here](https://ejdiamond.github.io/pooches_and_pints/index.html)
 
-![Responsive Design Image](/assets/images/responsive_design.png)
+![Responsive Design Image](assets/images/responsive_design.png)
 
 ## User Experience (UX)
 
@@ -52,3 +52,12 @@ Pooches and Pints is a site bringing together people and their pets across the M
 ### Existing Features
 
 - Navigation Bar
+   - The fully responsive navigation bar will consist of a logo, including logo image and title, as well as 4 navigation links, preventing the user from having to press back once they reach another page of the site.
+   - It will be the same across the three pages for continuinty, making it easier for the user to learn and use quickly.
+
+![Navigation bar](assets/images/navigation_bar.png)
+
+- Landing Image
+
+
+![Landing image](assets/images/landing-image.png)
