@@ -20,7 +20,6 @@ Pooches and Pints is a site bringing together people and their pets across the M
 
 - a) As a Returning Visitor, I want to find information about weekly meet ups.
 - b) As a Returning Visitor, I want to find the best way to get in contact and sign up for weekly events.
-- c) As a Returning Visitor, I want to find social links to view other people's experiences with the site and meet ups.
 
 #### Frequent User Goals
 
@@ -169,21 +168,24 @@ Pooches and Pints is a site bringing together people and their pets across the M
 
 - __First Time Visitor Goals__
 
-   - 1) As a First Time Visitor, I want to easily understand the main purpose of the site.
+   - a) As a First Time Visitor, I want to easily understand the main purpose of the site.
       - The logo and hero image/text are eyecatching andeffective in displaying what the site is for.
+      - The user has the option to scroll down or navigate to other pages.
 
    - b) As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
       - The navigation bar in the header is clear and uses :hover to show the user which page they are currently on.
       - The three pages are kept consistent by using the same nav links and layout for them.
 
    - c) As a First Time Visitor, I want to locate their social media links to see their followings and connect with local people.
-      - The social media links are displayed clearly in the footer with easy recognised icons.
+      - The social media links are displayed clearly in the footer with easily recognised icons.
+      - The social links open blank pages so as not to direct the user away from the site.
 
-#### Returning Visitor Goals
+- __Returning Visitor Goals__
 
-- a) As a Returning Visitor, I want to find information about weekly meet ups.
-- b) As a Returning Visitor, I want to find the best way to get in contact and sign up for weekly events.
-- c) As a Returning Visitor, I want to find social links to view other people's experiences with the site and meet ups.
+   - a) As a Returning Visitor, I want to find information about weekly meet ups.
+      - Information on weekly meet ups is displayed clearly on the sites home page, the user simply scrolls down from the heading.
+      - Alternatively, the user can use the events link in the navigation bar.
+   - b) As a Returning Visitor, I want to find the best way to get in contact and sign up for weekly events.
 
 #### Frequent User Goals
 
