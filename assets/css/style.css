@@ -34,18 +34,19 @@ body {
     align-items: center;
 }
 
-h1 {
+h1, h2 {
     font-family: Abril Fatface, cursive;
     color: #d0cbc2;
     letter-spacing: 2px;
     text-transform: capitalize;
 }
 
-h2 {
+h3 {
     font-family: Poppins, sans-serif;
     color: #d0cbc2;
     letter-spacing: 2px;
     text-transform: capitalize;
+    font-size: 1.5rem;
 }
 
 .title {
@@ -86,7 +87,6 @@ nav a {
 
 .active {
     border-bottom: #d0cbc2 solid 1px;
-
 }
 
 /* hero image and text */
@@ -122,20 +122,20 @@ nav a {
     text-align: center;
     text-transform: capitalize;
     margin-top: 40px;
+}
 
-}.all-about-container {
+.all-about-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     height: 200px;
     align-items: center;
     padding: 40px 0;
-  }
+}
 
-.center-all-about > p {
+.center-all-about {
     font-size: 110%;
     text-align: center;
-
 }
 
 /* Description of meet ups and image */
@@ -367,8 +367,9 @@ footer {
     align-items: center;
 }
 
-.location-content h2 {
+.location-content h4 {
     color: #626556;
+    font-size: 1.5rem;
     padding-bottom: 10px;
 }
 
@@ -533,12 +534,12 @@ footer {
 /* 404 page */
 
 .error-image {
-position: relative;
-width: 100%;
-height: 100vh;
-background: url(../images/sad-dog.webp) no-repeat center center;
-background-size: cover;
-justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/sad-dog.webp) no-repeat center center;
+    background-size: cover;
+    justify-content: center;
 }
 
 .error-text {
@@ -574,12 +575,13 @@ justify-content: center;
     }
 
     .hero-image {
-        height: 60vh;  
+        background-size: contain;
+        height: 80vh;
     }
 
     .hero-text {
         font-size: 1rem;
-        bottom: 62vh;
+        bottom: 50vh;
         width: 32vh;
     }
 
@@ -596,12 +598,13 @@ justify-content: center;
 
 @media screen and (max-width: 920px) {
 
-    .title {
-        font-size: 2rem;
-    }
-
     .menu {
         font-size: 1rem;
+    }
+
+    .hero-image {
+        background-size: contain;
+        height: 60vh;
     }
 
     .hero-text {
@@ -618,7 +621,7 @@ justify-content: center;
         font-size: 2rem;
     }
 
-    h2 {
+    h4 {
         font-size: 1.3rem;
     }
 }
@@ -714,13 +717,13 @@ justify-content: center;
     }
 
     .hero-outer {
-        height: 185px;
+        height: 28vh;
     }
 
     .hero-image {
         background-size: cover;
         width: 100%;
-        height: 185px;
+        height: 28vh;
     }
 
     .hero-text{
@@ -737,7 +740,7 @@ justify-content: center;
         font-size: 1.7rem;
     }
 
-    h2 {
+    h4 {
         font-size: 1.2rem;
     }
 
@@ -772,6 +775,10 @@ justify-content: center;
 
 @media screen and (device-width: 320px) and (device-height: 480px) {
 
+    .title {
+        font-size: 2.0rem;
+    }
+    
     .hero-outer {
         height: 140px;
     }
@@ -792,15 +799,7 @@ justify-content: center;
     }
 
     #about-title, #events-title {
-        font-size: 1.4rem;
-    }
-
-    h2 {
-        font-size: 1.0rem;
-    }
-
-    .center-all-about {
-        text-align: center;
+        font-size: 1.6rem;
     }
     
     .location-container .location-box {
