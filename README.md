@@ -12,7 +12,7 @@ Pooches and Pints is a site bringing together people and their pets across the M
 
 #### First Time Visitor Goals
 
-- a) As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the Manchester group meets.
+- a) As a First Time Visitor, I want to easily understand the main purpose of the site.
 - b) As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 - c) As a First Time Visitor, I want to locate their social media links to see their followings and connect with local people.
 
@@ -160,3 +160,34 @@ Pooches and Pints is a site bringing together people and their pets across the M
 
 - CSS
    - No errors were shown when passed through the [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fejdiamond.github.io%2Fpooches_and_pints%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+## Unfixed Bugs
+
+- On some mobile devices the hero outer section pushes down the all about section leaving space between the two.
+
+## Testing User Stories From User Experience Section
+
+- __First Time Visitor Goals__
+
+   - 1) As a First Time Visitor, I want to easily understand the main purpose of the site.
+      - The logo and hero image/text are eyecatching andeffective in displaying what the site is for.
+
+   - b) As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+      - The navigation bar in the header is clear and uses :hover to show the user which page they are currently on.
+      - The three pages are kept consistent by using the same nav links and layout for them.
+
+   - c) As a First Time Visitor, I want to locate their social media links to see their followings and connect with local people.
+      - The social media links are displayed clearly in the footer with easy recognised icons.
+
+#### Returning Visitor Goals
+
+- a) As a Returning Visitor, I want to find information about weekly meet ups.
+- b) As a Returning Visitor, I want to find the best way to get in contact and sign up for weekly events.
+- c) As a Returning Visitor, I want to find social links to view other people's experiences with the site and meet ups.
+
+#### Frequent User Goals
+
+- a) As a Frequent User, I want to check to see if there are any newly added locations or meet ups times.
+- b) As a Frequent User, I want to check to see if the existing weekly events have had any changes made.
+- c) As a Frequent User, I want to sign up to the Newsletter so that I am emailed with any newly scheduled events.
+
