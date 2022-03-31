@@ -6,7 +6,7 @@ Pooches and Pints is a site bringing together people and their pets across the M
 
 ![Responsive Design Image](assets/images/responsive_design.png)
 
-## User Experience (UX)
+# User Experience (UX)
 
 ### User stories
 
@@ -47,7 +47,7 @@ Pooches and Pints is a site bringing together people and their pets across the M
 
 * [Revised Mobile Wireframe](https://github.com/EJDiamond/pooches_and_pints/blob/main/assets/images/revised_mobile_wireframe.png)
 
-## Features
+# Features
 
 ### Existing Features
 
@@ -133,3 +133,14 @@ Pooches and Pints is a site bringing together people and their pets across the M
    - The 404 error page contains a relevant image and an text layover explaining to the user they have reached a page that doesn't exist, with a link back to the Pooches and Pints homepage.
 
 ![404 error page](assets/images/error_page.png)
+
+# Testing
+
+## Navigation Bar and Footer
+
+   - The navigation bar and footer contain effective links which move aorund the sight successfully.
+   - The newsletter in footer only ssubmit when filled in with an email and when submited the code institute form dump page opens.
+
+## Buttons
+
+   - All anchors across the site link to the relevant sections they were intended to navigate to.
