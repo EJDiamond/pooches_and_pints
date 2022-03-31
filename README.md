@@ -47,3 +47,8 @@ Pooches and Pints is a site bringing together people and their pets across the M
 
 * [Revised Mobile Wireframe](https://github.com/EJDiamond/pooches_and_pints/blob/main/assets/images/revised_mobile_wireframe.png)
 
+## Features
+
+### Existing Features
+
+- Navigation Bar
