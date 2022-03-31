@@ -201,7 +201,6 @@ nav a {
     margin: 40px;
 }
 
-
 #events-description {
     color: #d0cbc2;
     text-align: center;
@@ -560,7 +559,7 @@ footer {
     }
 
     .hero-image {
-        background-size: contain;
+        background-size: cover;
         height: 70vh;
     }
 
@@ -574,7 +573,7 @@ footer {
 @media screen and (max-width: 1280px) {
 
     .hero-outer {
-        height: 55vh;
+        height: 70vh;
     }
 
     #about-title {
