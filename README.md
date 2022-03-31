@@ -1,4 +1,6 @@
-# Pooches & Pints 
+# Pooches & Pints
+
+[View the live project here](https://ejdiamond.github.io/pooches_and_pints/index.html)
 ## User Experience (UX)
 
 ### User stories
