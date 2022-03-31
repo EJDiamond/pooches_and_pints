@@ -551,6 +551,37 @@ footer {
 
 /* media queries*/
 
+/* for medium screen sizes from 1600px wide and down */
+
+@media screen and (max-width: 1600px) {
+
+    .hero-outer {
+        height: 70vh;
+    }
+
+    .hero-image {
+        background-size: contain;
+        height: 70vh;
+    }
+
+    .hero-text {
+        bottom: 65vh;
+    }
+}
+
+/* for medium screen sizes from 1280px wide and down */
+
+@media screen and (max-width: 1280px) {
+
+    .hero-outer {
+        height: 55vh;
+    }
+
+    #about-title {
+        margin-top: 40px;
+    }
+}
+
 /* for medium screen sizes from 1024px wide and down */
 
 @media screen and (max-width: 1024px) {
@@ -617,12 +648,13 @@ footer {
 
 /* for screen sizes from 768px wide and down */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (max-height: 1024px) {
 
 .header-container {
     flex-direction: column;
     justify-content: center;
     margin: 15px 0;
+    height: 15vh;
 }
 
 .logo {
@@ -634,12 +666,17 @@ footer {
     padding-top: 15px;
 }
 
+.hero-outer {
+    height: 35vh;
+}
+
 .hero-image {
     background-size: contain;
 }
 
 .hero-text {
-    bottom: 295px;
+    bottom: 70vh;
+    width: 150px;
 }
 
 .all-about-container {
@@ -702,7 +739,7 @@ footer {
 @media screen and (max-width: 360px) and (max-height: 640px) {
 
     .header-container {
-        margin-bottom: 0;
+        margin-bottom: 20px;
     }
 
     .hero-outer {
@@ -726,14 +763,12 @@ footer {
     }
 
     #about-title, #events-title {
-        font-size: 1.7rem;
+        font-size: 1.3rem;
     }
 
     h3, h4 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
-
-
 
     .all-about-container {
         margin: 0;
