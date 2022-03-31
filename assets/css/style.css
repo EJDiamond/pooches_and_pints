@@ -13,7 +13,6 @@
 
 body {
     font-family: Poppins, sans-serif;
-    font-size: 300;
     color: #d0cbc2;
     background-color: #626556;
 }
@@ -35,7 +34,7 @@ body {
 }
 
 h1, h2 {
-    font-family: Abril Fatface, cursive;
+    font-family: "Abril Fatface", cursive;
     color: #d0cbc2;
     letter-spacing: 2px;
     text-transform: capitalize;
@@ -207,7 +206,6 @@ nav a {
     color: #d0cbc2;
     text-align: center;
     margin: 0 auto;
-    text-align: justify center;
     padding: 0 10px;
 }
 
@@ -473,12 +471,12 @@ footer {
     height: 100%;
     pointer-events: none;
     opacity: 0;
-    background: rgba(208, 203, 194, 0.8em);
+    background: rgba(208, 203, 194, 0.8);
     transition: all 500ms ease;
 }
 
 .modal-container:target {
-    pointer-events: auto;
+    pointer-events:all;
     opacity: 1;
 }
 
@@ -701,7 +699,7 @@ footer {
 
 /* for screen sizes from 360px wide and down */
 
-@media screen and (device-width: 360px) and (device-height: 640px) {
+@media screen and (max-width: 360px) and (max-height: 640px) {
 
     .header-container {
         margin-bottom: 0;
@@ -731,9 +729,11 @@ footer {
         font-size: 1.7rem;
     }
 
-    h4 {
+    h3, h4 {
         font-size: 1.2rem;
     }
+
+
 
     .all-about-container {
         margin: 0;
@@ -764,7 +764,7 @@ footer {
 
 /* for screen sizes from 320px wide and down */
 
-@media screen and (device-width: 320px) and (device-height: 480px) {
+@media screen and (max-width: 320px) and (max-height: 480px) {
 
     .title {
         font-size: 2.0rem;
