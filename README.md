@@ -29,17 +29,21 @@ Pooches and Pints is a site bringing together people and their pets across the M
 ### Design
 
 #### Colour Scheme
-- The two main colours used are green (#d0cbc2) and cream (#626556).
+
+- The two main colours used are green (#d0cbc2) and cream (#626556de).
+- These colours where selected as they compliment eachother and are colourful without being too loud makimng for an enjoyable user experience.
 
 #### Typography
+
 - The Abril Fatface font is used for the headings, whilst the main body font used is Poppins light, both being used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. The fonts pair well together and are clean and easy to read making them both attractive and appropriate.
 
 #### Imagery
-- The hero image placed, represents simply what the website is for, meeting up and socialising with other dog owners.
+
+- The hero image placed, represents simply what the website is for, meeting up and socialising with other dog owners as well as being eyecatching and drawing the user in.
 
 ### Wireframes
 
-* [Desktop Wireframe](https://github.com/EJDiamond/pooches_and_pints/blob/main/assets/images/initial_wireframe.png)
+* [Desktop Wireframe](https://github.com/EJDiamond/pooches_and_pints/blob/7581d7f0314c6c91dac27100fd452bc112551f69/assets/images/wireframe.png)
 
 * [Initial Mobile Wireframe](https://github.com/EJDiamond/pooches_and_pints/blob/main/assets/images/initial_mobile_wireframe.png)
 
@@ -132,6 +136,24 @@ Pooches and Pints is a site bringing together people and their pets across the M
 
 ![404 error page](assets/images/error_page.png)
 
+# Frameworks, Libraries and Programmes Used
+
+- [Google Fonts](https://fonts.google.com/)
+   - Used to import Abril Fatface and Poppins fonts into the css style sheet and used throughout the site.
+
+- [Font Awesome](https://fontawesome.com/)
+   - Used to import icons used in:
+         - the footer of the page for social icons, sign up and to top button.
+         - the locations section for marking different types of walks.
+
+- [Github](https://github.com/)
+   - Used to save project code from Git.
+
+- [Adobe Illustrator](https://www.adobe.com/)
+   - Used to create 
+      - logo used in the header image.
+      - wireframes
+
 # Testing
 
 ## Navigation Bar and Footer
@@ -189,7 +211,7 @@ Pooches and Pints is a site bringing together people and their pets across the M
       - Sign up for newsletter forms are located in the footer on each page with icon buttons clearly showing what is achived by filling it in.
       - The sign up page is clear and concise with inputs for first and last name as well as email and phone number. 
 
-#### Frequent User Goals
+- __Frequent User Goals__
 
    - a) As a Frequent User, I want to check to see if the existing weekly events have had any changes made.
       -  The events section is clearly laid out with all the main information including locations, times and dates.
@@ -212,9 +234,16 @@ The site was deployed through Github pages using the following steps:
 
 ## Content
 
-- Images used across the site were taken from [Pexels](https://www.pexels.com/)
 - Instructions for how to use flex boxes were used from a [YouTube Tutorial](https://www.youtube.com/watch?v=e2RQM4pE8uI)
 - Instructions for how to create a pure CSS modal pop up were used from a [YouTube Tutorial](https://www.youtube.com/watch?v=QButPwQ51wQ&list=PL_pBKMVHaanEK6aQOJkn2qWoOS9d_p2iy&index=1)
 - Instructions for how to create a 404 error page were taken from a [Github tutorial](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
+
+## Media
+
+- Images used across the site were taken from [Pexels](https://www.pexels.com/)
+
+
+
+
 
 
