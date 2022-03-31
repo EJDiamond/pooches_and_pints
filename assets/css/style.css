@@ -578,7 +578,7 @@ footer {
     }
 
     .hero-image {
-        background-size: contain;
+        background-size: cover;
         height: 60vh;
     }
 
@@ -606,7 +606,6 @@ footer {
     }
 
     .hero-image {
-        background-size: contain;
         height: 60vh;
     }
 
