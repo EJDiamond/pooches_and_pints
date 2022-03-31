@@ -29,7 +29,7 @@ Pooches and Pints is a site bringing together people and their pets across the M
 ### Design
 
 #### Colour Scheme
-- The two main colours used are green and cream.
+- The two main colours used are green (#d0cbc2) and cream (#626556).
 
 #### Typography
 - The Abril Fatface font is used for the headings, whilst the main body font used is Poppins light, both being used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. The fonts pair well together and are clean and easy to read making them both attractive and appropriate.
@@ -197,5 +197,24 @@ Pooches and Pints is a site bringing together people and their pets across the M
 
    - b) As a Frequent User, I want to sign up to the Newsletter so that I am emailed with any newly scheduled events.
       - Sign up for newsletter forms are located in the footer on each page with icon buttons clearly showing what is achived by filling it in.
+
+# Deployment
+
+The site was deployed through Github pages using the following steps:
+   - Open the Github repository
+   - Click the settings button
+   - Scroll down and hit the git hub page setting button
+   - From the source dropdown, select main branch
+   - The site delpoys automatically and can be found via the following link:
+      - [Pooches and Pints](https://ejdiamond.github.io/pooches_and_pints/)
+
+# Credits
+
+## Content
+
+- Images used across the site were taken from [Pexels](https://www.pexels.com/)
+- Instructions for how to use flex boxes were used from a [YouTube Tutorial](https://www.youtube.com/watch?v=e2RQM4pE8uI)
+- Instructions for how to create a pure CSS modal pop up were used from a [YouTube Tutorial](https://www.youtube.com/watch?v=QButPwQ51wQ&list=PL_pBKMVHaanEK6aQOJkn2qWoOS9d_p2iy&index=1)
+- Instructions for how to create a 404 error page were taken from a [Github tutorial](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
 
 
