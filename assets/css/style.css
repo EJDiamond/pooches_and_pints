@@ -593,14 +593,18 @@ footer {
         font-size: 1.2rem;
     }
 
+    .hero-outer {
+        height: 60vh;
+    }
+
     .hero-image {
         background-size: contain;
-        height: 80vh;
+        height: 60vh;
     }
 
     .hero-text {
         font-size: 1rem;
-        bottom: 50vh;
+        bottom: 60vh;
         width: 32vh;
     }
 
@@ -665,16 +669,12 @@ footer {
     padding-top: 15px;
 }
 
-.hero-outer {
-    height: 35vh;
-}
-
 .hero-image {
     background-size: contain;
 }
 
 .hero-text {
-    bottom: 70vh;
+    bottom: 58vh;
     width: 150px;
 }
 
