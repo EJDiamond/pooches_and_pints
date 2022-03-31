@@ -127,3 +127,9 @@ Pooches and Pints is a site bringing together people and their pets across the M
    - Once the user has entered their information into the form and pressed submit, the thank you modal will pop up.
 
 ![Thank you modal](assets/images/thank_you_modal.png)
+
+- 404 Error Page
+
+   - The 404 error page contains a relevant image and an text layover explaining to the user they have reached a page that doesn't exist, with a link back to the Pooches and Pints homepage.
+
+![404 error page](assets/images/error_page.png)
