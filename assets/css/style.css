@@ -91,14 +91,15 @@ nav a {
 /* hero image and text */
 
 .hero-image {
-    height: 95vh;
+    height: 700px;
     background: url(../images/hero-image.webp) no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: relative;
 }
 
 .hero-text {
-    font-size: 1rem;
+    position: absolute;
+    bottom: 55vh;
     color:#626556;
     background-color: rgba(208, 203, 194, .8);
     width: 32vh;
@@ -107,10 +108,7 @@ nav a {
     padding-left: 30px;
     padding-right: 10px;
     margin-left: 10px;
-    position: absolute;
-    left: 0;
-    bottom: 50vh;
-    border-radius: 0.2rem;
+    border-radius: 6px;
 }
 
 /* what its all about */
@@ -549,24 +547,6 @@ footer {
 }
 
 /* media queries*/
-
-/* for medium screen sizes from 1600px wide and down */
-
-@media screen and (max-width: 1600px) {
-
-    .hero-outer {
-        height: 70vh;
-    }
-
-    .hero-image {
-        background-size: cover;
-        height: 70vh;
-    }
-
-    .hero-text {
-        bottom: 65vh;
-    }
-}
 
 /* for medium screen sizes from 1280px wide and down */
 
